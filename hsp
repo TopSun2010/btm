@@ -7,4 +7,4 @@ echo $address
 worker=$(cat /home/ethos/worker)
 echo $worker
 sudo killall HSPMiner
-HSPMiner -bpool btm.f2pool.com:9221 -bwal bm1ql7p8l2q2chxzvdw76u9v6n98tur09xjshhmns6 -bworker $worker -bpsw passd -logfile -api 127.0.0.1:16666 >/tmp/hsp.log 2>&1 &
+HSPMiner -bpool btm.f2pool.com:9221 -bwal bm1qwht4dnyw465za05tpe989fx4434sf4m7jylx86 -bworker $worker -bpsw passd -logfile -api 127.0.0.1:16666 >/tmp/hsp.log 2>&1 &
